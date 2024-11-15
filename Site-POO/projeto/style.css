@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/Fundo.jpg);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+.header {
+    background-color: #e8591c;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu,
+.logo {
+    padding: 10px;
+}
+
+
+a {
+    color:white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:hover {
+    background-color: white;
+    color: #e8591c;
+}
+
+.posts a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1px 2px;
+}
+
+.posts a:hover {
+    background-color: white;
+    color: #e8591c;
+}
+
+.container {
+    color: black;
+    width: 920px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.post p{
+    margin: 10px 0;
+}
+
+.post {
+    padding: 20px;
+}
+
+.posts {
+    width: 660px;
+    background-color:#c0c0c0;
+    float: left;
+    padding: 10px 0;
+}
+
+.posts,p,h2 {
+    margin: 10px;
+}
+
+.grupo {
+    width: 240px;
+    background-color:#c0c0c0;
+    float: right;
+}
+
+h2 {
+    color: #e8591c;
+    text-align: center;
+    font-style: bold;
+}
+
+.refencia {
+    width: 660px;
+    background-color:#c0c0c0;
+    float: left;
+    padding: 20px 0;
+}
+
+#ff {
+    display: flex;
+    justify-content: center;
+}
+
+.refencia h3{
+    color: #e8591c;
+}
+b {
+    color: #e8591c;
+}
+
+li {
+    color: #e8591c;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8591c;
+    color: #ffffff;
+    box-sizing: border-box;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradigma Orientado a Objeto com Python</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>Paradigma Orientado a Objeto com Python<h1/> 
+        </div>
+        <div class="menu">
+            <a href="#poo">Paradigma OO</a>
+            <a href="#python">Python</a>
+            <a href="#ref ">Referências</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="posts">
+            <div id="poo"class="post">
+                <h2>Concepção de OO</h2>
+                <p>A Orientação a Objetos (OO) é um paradigma de programação que se baseia na ideia de que tudo no mundo é composto de objetos que possuem atributos e comportamentos. Na programação orientada a objetos, o objetivo é modelar o mundo real por meio de objetos que interagem entre si, formando sistemas complexos.<a id="001"href="#01">[1]</a></p>
+                <h2>Objetos</h2>
+                <p>Usamos o termo objeto para representar um determinado elemento do mundo real. Mas somente analisaremos os objetos que tem relevância para a solução de um determinado problema. Portanto, o objeto é uma entidade do mundo real que merece representação para o ambiente estudado.</p>
+                <h2>Classes</h2>
+                <p>Uma classe representa um conjunto de objetos que possuem características e comportamentos comuns e de agora em diante, diremos que um objeto é uma instância de uma determinada classe, ou seja, criaremos nossos objetos baseados nas características definidas nas classes.</p>
+                <h2>Atributos</h2>
+                <p>Os objetos do mundo real possuem propriedades que possuem valores. Estes valores definem o estado do objeto. As propriedades recebem o nome de atributos em OO.</p>
+                <h2>Métodos</h2>
+                <p>Os métodos são procedimentos ou funções que realizam as ações próprias do objeto. Assim, os métodos são as ações que o objeto pode realizar. Tudo que o objeto faz é realizado através de seus métodos, pois é através dos seus métodos que um objeto se manifesta, e através deles que o objeto interage com os outros objetos.</p>
+                <div id="ff">
+                    <img src="imagens/Code_cat_dog.png" alt="Código exemplo de classe e objeto" width="350px"aling="right" img-aling="center" justify-content="center">
+                </div>
+                <h2>Os 4 Princípios Fundamentais</h2>
+                <h2>Abstração</h2>
+                <p>É a capacidade de representar conceitos complexos de forma simplificada. Isso significa que a programação orientada a objetos permite criar modelos simples e abstratos de objetos do mundo real, sem se preocupar com os detalhes internos desses objetos.</p>
+                <h2>Encapsulamento</h2>
+                <p>É o processo de ocultar os detalhes de implementação de um objeto e expor apenas uma interface pública. Isso permite que os objetos sejam usados sem a necessidade de conhecer todos os detalhes de sua implementação interna, melhorando a segurança e a simplicidade do código.</p>
+                <h2>Herança</h2>
+                <p>É o mecanismo que permite a criação de novas classes a partir de classes existentes. A classe original é chamada de classe pai ou superclasse, enquanto a nova classe é chamada de classe filha ou subclasse. A herança permite que as subclasses herdem atributos e métodos de suas superclasses, reduzindo a duplicação de código e facilitando a manutenção.</p>
+                <h2>Polimorfismo</h2>
+                <p>É o mecanismo que permite a criação de novas classes a partir de classes existentes. A classe original é chamada de classe pai ou superclasse, enquanto a nova classe é chamada de classe filha ou subclasse. A herança permite que as subclasses herdem atributos e métodos de suas superclasses, reduzindo a duplicação de código e facilitando a manutenção.</p>
+                <h2>S.O.L.I.D</h2>
+                <h3>S — Single Responsiblity Principle (Princípio da responsabilidade única)</h3>
+                <h3>O — Open-Closed Principle (Princípio Aberto-Fechado)</h3>
+                <h3>L — Liskov Substitution Principle (Princípio da substituição de Liskov)</h3>
+                <h3>I — Interface Segregation Principle (Princípio da Segregação da Interface)</h3>
+                <h3>D — Dependency Inversion Principle (Princípio da inversão da dependência)</h3>
+                <p>Esses princípios ajudam o programador a escrever códigos mais limpos, separando responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.<a id="002"href="#02">[2]</a></p></p>
+            </div>
+            <div id="python" class="post">
+                <h2>História da Linguagem Python</h2>
+                <p>Python foi concebido no final de 1989 por Guido Van Rossum<a id="003" href="#03">[3]</a> no Instituto de
+                Pesquisa Nacional para Matemática e Ciência Da Computação, nos Países Baixos, como um sucessor do ABC, que era mais produtivo do que o C, porém com um custo de desempenho em tempo de execução. Mas ela não possuía funcionalidades para interação com sistemas operacionais que era uma necessidade do grupo na época.<a id="004" href="#04">[4]</a></h2>
+                <p>Python foi feita com base na linguagem ABC, possui parte da sintaxe derivada do C, compreensão de listas, funções anônimas e função map de Haskell, tratamentos de exceção e módulos da Modula-3, expressões regulares de Perl.</p>
+                <h2>Evolução do Python</h2>
+                <p><b>1991</b> É lançada a primeira versão de Python (0.9.0).</p>
+                <p><b>1994</b> É lançada a versão 1.0 e criado o principal fórum de discussão do Python (comp.lang.python) que ajudou no crescimento da base de usuários da linguagem. (Uma das primeiras comunidades de programação na internet). </p>
+                <p><b>1995</b> Guido continua seu trabalho no CNRI (Corporação para Iniciativas Nacionais de Pesquisa) onde lançou diversas versões.</p>
+                <p><b>2000</b> Os desenvolvedores se mudam para BeOpen afim de formar o grupo PythonLabs e lançada a versão 2.0, primeira e única na BeOpen.</p>
+                <p><b>2002</b> Versão 2.2 com a unificação dos tipos Python (escritos em C) e classes (escritas em Python) em somente uma hierarquia.</p>
+                <p><b>2008</b> Foi lançada a versão 2.6 já visando a transição para a versão 3.0 da linguagem. Entre outras modificações, foram incluídas bibliotecas para multiprocessamento, JSON e E/S, além de uma nova forma de formatação de cadeias caracteres.</p>
+                <p>Atualmente, Python é um dos componentes padrão de vários sistemas operacionais, entre eles estão a maioria das distribuições do Linux, AmigaOS 4, FreeBSD, NetBSD, OpenBSD e OS X. A linguagem se tornou a padrão no curso de ciências da computação do MIT em 2009</p>
+                <h2>Comunidade</h2>
+                <p>A principal comunidade de Python no país é a Python Brasil que se reúne anualmente e é mantida por voluntários da Associação Python Brasil (APyB)<a id="005" href="#05">[5]</a></p></p> e a Python Software Foundation (PSF).</p>
+                <img src="imagens/default.png" alt="comunidade python de brasília" width="60px" aling="right" justify-content="center">
+                <img src="imagens/grupy-df.png" alt="comunidade python do distrito federal" width="60px" aling="right" justify-content="center">
+                <img src="imagens/python-goias.png" alt="comunidade python de goiás" width="60px" aling="right" justify-content="center">
+                <img src="imagens/pug-pi.png" alt="comunidade python do piauí" width="60px" aling="right" justify-content="center">
+                <img src="imagens/pytche.png" alt="comunidade python do rio grande do sul" width="60px" aling="right" justify-content="center">
+                <img src="imagens/grupy-rn.png" alt="comunidade python do rio grande do norte" width="60px" aling="right" justify-content="center">
+                <img src="imagens/pug-ce.png" alt="comunidade python do ceará" width="60px" aling="right" justify-content="center">
+                <img src="imagens/grupypr.png" alt="comunidade python do paraná" width="60px" aling="right" justify-content="center">
+                <img src="imagens/python-mg.png" alt="comunidade python de minas gerais" width="60px" aling="right" justify-content="center">
+                <h2>Curiosidades</h2>
+                <p><b>⭕</b>O nome Python é uma homenagem ao seriado de humor britânico Monty Python's Flying Circus.</p>
+                <p><b>⭕</b>Existe um easter egg ao digitar "import this" e execultar será retornado um poema sobre a linguagem de programação? O poema foi escrito por Tim Peters, e se é intitulado The Zen of Python.</p>
+                <p><b>⭕</b>O uso da cobra como símbolo foi popularizado pelo famoso livroProgramming Python da editora O'Reilly que estampava uma cobra píton na capa</p>
+
+                <div id="ff">
+                    <a href="https://www.kufunda.net/publicdocs/Pense%20em%20Python.pdf"><img src="imagens/livro.jpg" alt="livro programming python" width="90px"aling="right" img-aling="center" justify-content="center"></a>
+                </div>
+                <h2>Filosofia</h2>
+                <p>A cultura de Python gira em torno de “The Zen of Python”, um poema com 20 princípios escrito pelo programador Tim Peters. Entre os princípios estão presentes:</p>
+                <p><b>⭕</b>Bonito é melhor que feio</p>
+                <p><b>⭕</b>Explícito é melhor que implícito</p>
+                <p><b>⭕</b>Simples é melhor que complexo</p>
+                <p><b>⭕</b>Complexo é melhor que compbcado</p>
+                <p><b>⭕</b>Legibilidade faz a diferença</p>
+                <h2>Sintaxe</h2>
+                <p>A sintaxe da linguagem de programação Python é o conjunto de regras que define como um programa Python será escrito e interpretado (tanto pelo sistema de execução quanto por leitores humanos).<a id="006" href="#06">[6]</a></p>
+                <h2>Indentação</h2>
+                <p>A indentação em Python é uma característica fundamental e única, substituindo as chaves presentes em muitas outras linguagens para definir blocos de código. A indentação determina a hierarquia do código, indicando quais linhas pertencem a um determinado bloco (como umloop, uma função ou um condicional).</p>
+                <h2>Case-sensitive</h2>
+                <p>Python é uma linguagem case-sensitive, o que significa que diferencia letras maiúsculas de minúsculas. Por exemplo, as variáveis idade e Idade são consideradas diferentes.</p>
+                <h2>Tipos de Dados</h2>
+                <p>Python possui diversos tipos de dados built-in para representar diferentes tipos de informações:</p>
+                <p><b>Inteiros(int):</b> Números inteiros, como 42, -10.</p>
+                <p><b>Ponto flutuante(float):</b> Números com casas decimais, como 3.14, -2.5.</p>
+                <p><b>Strings (str):</b> Sequências de caracteres, como "Olá, mundo!".</p>
+                <p><b>Booleanos (bool):</b> Valores lógicos, True ou False.</p>
+                <p><b>Listas:</b> Coleções ordenadas e mutáveis de elementos, como [1, 2, 3,"banana"].</p>
+                <p><b>Tuplas:</b> Coleções ordenadas e imutáveis de elementos, como (1, 2, 3).</p>
+                <p><b>Dicionários:</b> Coleções não ordenadas de pares chave-valor, como {"nome": "Alice", "idade": 30}.</p>
+                <div id="ref" class="referencia">
+                    <h2>referências</h2>
+                    <h3>POO</h3>
+                    <p id="01"><a href="#001">1.</a><a href="https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetossrsltid=AfmBOoolSIztpkYgCxO6mr8plSNsMYEBokdL3uIRFimuq_9jm19ahTN1">Alura-POO: O que é programação orientada a objetos?</a></p>
+                    <p><a href="#002">2.</a><a href="https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530">Medium-Solid</a>
+                        <h3>Python</h3></p>
+                        <p><a href="#003">3.</a><a href="https://pt.wikipedia.org/wiki/Guido_van_Rossum">Wikipedia-Guido Van Rossum</a>
+                        <p><a href="#004">4.</a><a href="https://pt.wikipedia.org/wiki/Python">Wikipedia-Python</a>
+                        <p><a href="#005">5.</a><a href="https://python.org.br/">Python Brasil</a>
+                        <p><a href="#006">6.</a><a href="file:///C:/Users/ARTE%20FOTO%20VIDEO/Documents/Python.pdf">Documentação Python Pt-br</a>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="grupo">
+            <h2>GRUPO</h2>
+            <p>>Bernardo Coelho: Responsável pela pesquisa de POO</p>
+            <p>>Rafael Vital: Responsável pela pesquisa de POO</p>
+            <p>>Pedro Vieira: Responsável pela pesquisa de Python</p>
+            <p>>Gustavo Gomes: Responsável pela pesquisa de Python</p>
+            <p>>Lucas Araújo: Responsável pelo Jogo</p>
+            <p>>Yury Gomes: Responsável pelo site</p>
+        </div>
+    </div>
+    <footer>
+        Copyright © 2024 Yury Gomes Fontenele
+    </footer>
+</body>
+</html>
